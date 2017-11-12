@@ -7,7 +7,7 @@ from flask import jsonify
 line_parser = apache_log_parser.make_parser("%t %a")
 app = Flask(__name__)
 logfileglobal = "C:\\Users\\5559-650124\\Downloads\\CTF1\\CTF1.log"
-geodata='C://Users//5559-650124//PycharmProjects//Horangi//static//GeoLiteCity.dat'
+geodata='C://Users//5559-650124//PycharmProjects//test//static//GeoLiteCity.dat'
 IP_PATTERN = '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
 
 
